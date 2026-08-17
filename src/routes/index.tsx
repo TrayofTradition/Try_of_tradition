@@ -45,15 +45,15 @@ function Index() {
           id="home"
           className="animate-fade-up flex flex-col items-center py-6 text-center sm:py-10"
         >
-         <div
-  className="flex w-full items-center justify-center px-4"
+        <div
+  className="flex w-full items-center justify-center px-4 pt-3 pb-2"
   role="img"
   aria-label="Tray of Tradition — Decoration, Makeup, Photography"
 >
   <img
-    src={`${import.meta.env.BASE_URL}tray-of-tradition-logo-gold.png`}
+    src={`${import.meta.env.BASE_URL}tray-of-tradition-logo.jpg`}
     alt="Tray of Tradition — Decoration, Makeup, Photography"
-    className="block h-auto w-[78%] max-w-[360px] sm:w-[55%] sm:max-w-[460px]"
+    className="block w-full max-w-[620px] h-auto object-contain"
   />
 </div>
           <h1 className="text-gold mt-5 max-w-lg font-display text-sm leading-relaxed tracking-[0.18em] uppercase sm:mt-6 sm:text-xl sm:tracking-[0.2em]">
