@@ -46,14 +46,14 @@ function Index() {
           className="animate-fade-up flex flex-col items-center py-6 text-center sm:py-10"
         >
           <div
-  className="logo-mark flex w-full max-w-[20rem] items-center justify-center px-2 py-2 sm:max-w-[30rem]"
+  className="logo-mark flex w-full items-center justify-center px-6 pt-4"
   role="img"
   aria-label="Tray of Tradition — Decoration, Makeup, Photography"
 >
   <img
     src={`${import.meta.env.BASE_URL}tray-of-tradition-logo.png`}
     alt="Tray of Tradition — Decoration, Makeup, Photography"
-    className="h-auto w-full max-w-[20rem] object-contain sm:max-w-[30rem]"
+    className="h-auto w-[72%] max-w-[420px] object-contain mix-blend-lighten sm:w-[60%] sm:max-w-[480px]"
   />
 </div>
           <h1 className="text-gold mt-5 max-w-lg font-display text-sm leading-relaxed tracking-[0.18em] uppercase sm:mt-6 sm:text-xl sm:tracking-[0.2em]">
