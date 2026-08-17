@@ -46,15 +46,16 @@ function Index() {
           className="animate-fade-up flex flex-col items-center py-6 text-center sm:py-10"
         >
           <div
-            className="logo-mark flex w-full max-w-[20rem] flex-col items-center px-4 py-3 sm:max-w-[26rem]"
-            role="img"
-            aria-label="Tray of Tradition — Decoration, Makeup, Photography"
-          >
-            <span className="font-display text-gold text-3xl leading-none sm:text-5xl">Tray of Tradition</span>
-            <span className="text-cream/80 mt-3 text-[9px] tracking-[0.28em] uppercase sm:text-[11px]">
-              Decoration • Makeup • Photography
-            </span>
-          </div>
+  className="logo-mark flex w-full max-w-[20rem] items-center justify-center px-2 py-2 sm:max-w-[30rem]"
+  role="img"
+  aria-label="Tray of Tradition — Decoration, Makeup, Photography"
+>
+  <img
+    src={`${import.meta.env.BASE_URL}tray-of-tradition-logo.png`}
+    alt="Tray of Tradition — Decoration, Makeup, Photography"
+    className="h-auto w-full max-w-[20rem] object-contain sm:max-w-[30rem]"
+  />
+</div>
           <h1 className="text-gold mt-5 max-w-lg font-display text-sm leading-relaxed tracking-[0.18em] uppercase sm:mt-6 sm:text-xl sm:tracking-[0.2em]">
             Celebrating Tradition, Beauty, and Memorable Moments
           </h1>
