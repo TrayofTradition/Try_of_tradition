@@ -134,7 +134,7 @@ function Index() {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Chat on WhatsApp"
-       className="fixed right-4 bottom-4 z-50 grid size-15 place-items-center rounded-full border border-gold/60 bg-[#25D366] shadow-lg shadow-black/40 ..."
+       className="fixed right-4 bottom-6 z-50 grid size-15 place-items-center rounded-full border border-gold/60 bg-[#25D366] shadow-lg shadow-black/40 ..."
       >
         <svg
           viewBox="0 0 24 24"
